@@ -1,0 +1,14 @@
+{
+  "name": "miwalela-campus-sin-servidor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Código fuente del campus MiWalela sin servidor. Genera campus/assets/js/campus.js y panel.js.",
+  "type": "module",
+  "scripts": {
+    "construir": "node construir.mjs",
+    "construir:legible": "node construir.mjs --legible"
+  },
+  "devDependencies": {
+    "esbuild": "^0.27.0"
+  }
+}
